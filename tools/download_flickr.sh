@@ -29,8 +29,8 @@ rm data/flickr30k/flickr30k_features.zip
 # Unpack Flickr30kEntities.tar.gz
 # tar xvf data/flickr30k/Flickr30kEntities.tar.gz -C data/flickr30k
 # rm data/flickr30k/Flickr30kEntities.tar.gz
-wget -P data/flickr30k https://github.com/BryanPlummer/flickr30k_entities/blob/master/annotations.zip?raw=true
-unzip data/flickr30k/annotations.zip -d data/flickr30k
+wget -O data/flickr30k/annotations.zip https://github.com/BryanPlummer/flickr30k_entities/blob/master/annotations.zip?raw=true
+unzip data/flickr30k/annotations.zip -d data/flickr30k/Flickr30kEntities
 rm data/flickr30k/annotations.zip
 
 # GloVe Vectors
